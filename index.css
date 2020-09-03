@@ -17,7 +17,7 @@ margin: 0;
 padding: 0;  
 border: 0; 
 font-size: 100%;  
-font: inherit;  
+/*font: inherit;*/
 vertical-align: baseline;  
 }
 
@@ -25,6 +25,7 @@ vertical-align: baseline;
     box-sizing:border-box;
     /*border:1px solid grey;*/
     max-width:100%;
+    font-family: 'Quicksand', sans-serif;
   }
 
 html{
@@ -85,7 +86,7 @@ h1 {
 }
 
 .Projects2 {
-    border: 2px solid darkgray;
+    border: 2px solid black;
     text-decoration: none;
     padding: 0 2%;
     margin: 2% 0;
@@ -108,6 +109,7 @@ h1 {
 
 footer {
     background-color: lightgray;
+    padding: 5% 0;
 }
 
 .footertext {
@@ -121,6 +123,36 @@ footer {
     font-size:3rem;
 }
 
-.ContactMe p {
-    font-size: 2rem;
+.ContactMe {
+    border: 2px solid black;
+    padding: 0 2%;
+    margin: 2% 0;
 }
+
+.ContactMe a{
+    font-size: 2rem;
+    text-decoration:none;
+}
+
+.btn-linkedin {
+    background: #0E76A8;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+    padding: 0 .5%;
+  }
+  .btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
+  }
+  .btn-linkedin:active, .btn-linkedin:hover {
+    background: #084461;
+    color: #fff;
+  }
+
+  footer nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
